@@ -12,7 +12,7 @@ export default function HeroBanner() {
         max-w-[700px]
       "
     >
-      {/* Heading */}
+     
       <h1
         className="
           text-xl
@@ -26,8 +26,7 @@ export default function HeroBanner() {
         Earth’s Exhale
       </h1>
 
-      {/* Description */}
-      <p
+            <p
         className="
           mt-6
           text-sm
@@ -44,7 +43,6 @@ export default function HeroBanner() {
         essential role in sustaining life.
       </p>
 
-      {/* Buttons */}
       <div
         className="
           mt-8
@@ -56,7 +54,6 @@ export default function HeroBanner() {
       >
         <Button />
 
-        {/* Play Button */}
         <button
           className="
             w-12

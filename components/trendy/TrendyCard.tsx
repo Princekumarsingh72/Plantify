@@ -40,8 +40,7 @@ const TrendyCard = ({
       `}
     >
       
-      {/* Plant Image */}
-      <div
+           <div
         className={`
           absolute
           top-[-90px]
@@ -64,8 +63,7 @@ const TrendyCard = ({
         />
       </div>
 
-      {/* Content */}
-      <div
+            <div
         className={`
           w-[45%]
           z-10
@@ -77,25 +75,18 @@ const TrendyCard = ({
         `}
       >
         
-        {/* Title */}
-        <h3 className="text-white text-[38px] font-semibold leading-tight">
+                <h3 className="text-white text-[38px] font-semibold leading-tight">
           {title}
         </h3>
 
-        {/* Description */}
-        <p className="mt-5 text-white/70 text-lg leading-8">
+              <p className="mt-5 text-white/70 text-lg leading-8">
           {description}
         </p>
-
-        {/* Bottom */}
-        
-          
-          {/* Price */}
-          <p className="text-white text-[34px] font-medium">
+                          <p className="text-white text-[34px] font-medium">
             {price}
           </p>
 
-          {/* Explore Button */}
+       
           <div className="mt-8 flex items-center gap-5">
           <button
             className="
@@ -113,8 +104,7 @@ const TrendyCard = ({
             Explore
           </button>
 
-          {/* Bag Button */}
-          <button
+                    <button
             className="
               w-12
               h-12

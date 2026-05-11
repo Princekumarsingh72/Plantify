@@ -20,23 +20,23 @@ export default function HeroPlantCard() {
       >
         <path
           d="
-            M36 66
+            M26 66
 
-            Q66 18 144 30
+            Q36 18 144 30
             Q204 42 264 30
-            Q342 18 372 66
+            Q362 15 372 56
 
-            L372 408
+            L382 408
 
             Q372 468 312 468
 
             L96 468
 
-            Q36 468 36 408
+            Q36 468 26 418
 
-            L36 96
+            L26 106
 
-            Q36 78 36 66
+            Q26 90 26 66
           "
           fill="rgba(0,0,0,0.25)"
           stroke="rgba(255,255,255,0.15)"
@@ -44,7 +44,6 @@ export default function HeroPlantCard() {
         />
       </svg>
 
-      {/* Plant Image */}
       <div
         className="
           absolute
@@ -67,8 +66,7 @@ export default function HeroPlantCard() {
         />
       </div>
 
-      {/* Content */}
-      <div
+           <div
         className="
           absolute
           bottom-10
@@ -78,7 +76,7 @@ export default function HeroPlantCard() {
           z-10
         "
       >
-        {/* Subtitle */}
+      
         <p
           className="
             text-sm
@@ -88,8 +86,7 @@ export default function HeroPlantCard() {
           Indoor Plant
         </p>
 
-        {/* Title */}
-        <div
+             <div
           className="
             mt-2
             flex
@@ -114,7 +111,6 @@ export default function HeroPlantCard() {
           </span>
         </div>
 
-        {/* Button */}
         <button
           className="
             mt-6
@@ -132,8 +128,7 @@ export default function HeroPlantCard() {
           Buy Now
         </button>
 
-        {/* Slider Dots */}
-        <div
+               <div
           className="
             mt-8
             flex

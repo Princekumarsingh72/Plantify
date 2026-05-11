@@ -27,11 +27,11 @@ const HeroSection = () => {
           gap-12
         "
       >
-        {/* LEFT SIDE */}
+       
         <div className="relative">
           <HeroBanner />
 
-          {/* Floating Review Card */}
+          
           <div
             className="
               mt-20
@@ -44,8 +44,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* RIGHT SIDE */}
-        <div
+                <div
           className="
             flex
             justify-center

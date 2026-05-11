@@ -4,6 +4,8 @@ import ReviewsSection from "@/components/review/RewiewSection";
 import TopSellingSection from "@/components/topselling/TopSellingSection";
 import TrendySection from "@/components/trendy/TrendySection";
 import HeroSection from "@/components/hero/HeroSection";
+import BestO2Plants from "@/components/ourbesto2/BestO2Card";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -16,20 +18,12 @@ export default function Home() {
         }}
       >
         <Navbar />
-        <div className="w-[100%] text-white my-50">
-          <HeroSection />
-        </div>
-        {/* <div className=" flex justify-center items-center w-[25%]">
-          <TestimonialCard />
-        </div> */}
-        <div>
-          <TrendySection/>
-        </div>
-        
-        <div>
-          <TopSellingSection/>
-          <ReviewsSection />
-        </div>
+        <HeroSection />
+        <TrendySection />
+        <TopSellingSection />
+        <ReviewsSection />
+        <BestO2Plants />
+        <Footer />
       </div>
 
     </div>

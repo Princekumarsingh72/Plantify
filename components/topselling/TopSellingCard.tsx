@@ -17,15 +17,18 @@ const TopSellingCard = ({
     <div
       className="
         relative
-        mt-20
+        mt-16 sm:mt-20
         w-full
-        max-w-[410px]
-        h-[500px]
+        max-w-[340px]
+        sm:max-w-[380px]
+        md:max-w-[410px]
+        h-[430px]
+        sm:h-[470px]
+        md:h-[500px]
         mx-auto
       "
     >
-      {/* SVG Shape */}
-      <svg
+         <svg
         viewBox="0 0 410 500"
         className="absolute inset-0 w-full h-full"
         xmlns="http://www.w3.org/2000/svg"
@@ -33,11 +36,11 @@ const TopSellingCard = ({
       >
         <path
           d="
-            M36 66
+            M37 66
 
-            Q66 18 144 30
-            Q204 42 264 30
-            Q342 18 372 66
+            Q50 5 120 30
+            Q204 52 284 30
+            Q362 2 372 60
 
             L372 408
 
@@ -49,7 +52,7 @@ const TopSellingCard = ({
 
             L36 96
 
-            Q36 78 36 66
+            Q36 68 37 66
           "
           fill="#1A2418"
           stroke="rgba(255,255,255,0.12)"
@@ -57,15 +60,15 @@ const TopSellingCard = ({
         />
       </svg>
 
-      {/* Plant Image */}
-      <div
+          <div
         className="
           absolute
-          -top-16
+          -top-12 sm:-top-14 md:-top-16
           left-1/2
           -translate-x-1/2
-          w-[85%]
-          max-w-[360px]
+          w-[75%]
+          sm:w-[80%]
+          md:w-[85%]
           z-10
         "
       >
@@ -76,52 +79,52 @@ const TopSellingCard = ({
         />
       </div>
 
-      {/* Content */}
       <div
         className="
+        mx-3 my-3
           absolute
-          bottom-12
-          left-6
-          right-6
-          md:left-12
-          md:right-12
+          bottom-6 sm:bottom-8 md:bottom-10
+          left-5 right-5
+          sm:left-7 sm:right-7
+          md:left-10 md:right-10
           z-10
         "
       >
-        {/* Title */}
+     
         <h3
           className="
             text-white
-            text-2xl
+            text-[26px]
+            sm:text-[32px]
             md:text-[28px]
             font-medium
-            leading-tight
+            leading-6
           "
         >
           {title}
         </h3>
 
-        {/* Description */}
         <p
           className="
-            mt-4
+            mt-3 sm:mt-4
             text-white/60
-            text-sm
-            leading-6
+            text-sm sm:text-base
+            leading-5
             line-clamp-3
           "
         >
           {description}
         </p>
 
-        {/* Price + Button */}
-        <div className="mt-8 flex items-center justify-between">
+        <div className="mt-6 sm:mt-4 flex items-center justify-between">
           <p
             className="
+            
               text-white
-              text-2xl
-              md:text-[26px]
-              font-medium
+              text-[20px]
+              sm:text-[34px]
+              md:text-[32px]
+              
             "
           >
             {price}
@@ -129,14 +132,11 @@ const TopSellingCard = ({
 
           <button
             className="
-              w-12
-              h-12
+              w-10 h-10
+              sm:w-10 sm:h-10
               rounded-xl
-              border
-              border-white/40
-              flex
-              items-center
-              justify-center
+              border border-white/40
+              flex items-center justify-center
               text-white
               text-2xl
               hover:bg-white/10
