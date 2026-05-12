@@ -24,7 +24,7 @@ const plants = [
 
 const TrendySection = () => {
   return (
-    <section className="mt-100 py-20">
+    <section className="mt-10 mb-30">
       
         <div className="flex justify-center items-center">
      <h4
@@ -73,7 +73,7 @@ const TrendySection = () => {
 </h4>
 </div>
 
-      <div className="flex flex-col flex-wrap m-10 gap-10 place-items-center">
+      <div className="flex flex-col flex-wrap  gap-10 place-items-center">
         
         {plants.map((plant, index) => (
          <TrendyCard

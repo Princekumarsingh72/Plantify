@@ -52,7 +52,7 @@ export default function HeroPlantCard() {
           -translate-x-1/2
           w-[90%]
           max-w-[360px]
-          z-10
+          z-16
         "
       >
         <img
