@@ -52,7 +52,7 @@ const plants = [
 
 const TopSellingSection = () => {
   return (
-    <section className="bg-[#0B1409] py-20">
+    <section className="bg-[#0F170C] py-20">
       <div className="flex justify-center items-center">
      <h4
   className="
@@ -100,19 +100,26 @@ const TopSellingSection = () => {
 </h4>
 </div>
 
-      <div className="flex flex-wrap m-10 gap-10 place-items-center">
-        
-        {plants.map((plant, index) => (
-          <TopSellingCard 
-            key={index}
-            image={plant.image}
-            title={plant.title}
-            description={plant.description}
-            price={plant.price}
-          />
-        ))}
-
-      </div>
+     <div
+  className="
+    grid
+    grid-cols-1
+    sm:grid-cols-2
+    xl:grid-cols-3
+    gap-10
+    place-items-center
+  "
+>
+  {plants.map((plant, index) => (
+    <TopSellingCard
+      key={index}
+      image={plant.image}
+      title={plant.title}
+      description={plant.description}
+      price={plant.price}
+    />
+  ))}
+</div>
     </section>
   );
 };

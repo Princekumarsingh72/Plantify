@@ -8,7 +8,7 @@ export default function BestO2Plants() {
     <section className="w-full bg-[#0B1409] py-14 sm:py-16 overflow-hidden">
 
       {/* Heading */}
-      <div className="flex justify-center mb-10 px-4">
+      <div className="flex justify-center mb-40 px-4">
 
         <h4
           className="

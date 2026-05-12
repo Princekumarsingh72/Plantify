@@ -3,14 +3,15 @@
 export default function HeroPlantCard() {
   return (
     <div
-      className="
-        relative
-        w-full
-        max-w-[430px]
-        h-[560px]
-        mx-auto
-      "
-    >
+  className="
+    relative
+    w-full
+    max-w-[430px]
+    h-[560px]
+    mx-auto
+    overflow-visible
+  "
+>
       {/* SVG Shape */}
       <svg
         viewBox="0 0 410 500"
@@ -45,16 +46,17 @@ export default function HeroPlantCard() {
       </svg>
 
       <div
-        className="
-          absolute
-          -top-12
-          left-1/2
-          -translate-x-1/2
-          w-[90%]
-          max-w-[360px]
-          z-16
-        "
-      >
+  className="
+    absolute
+    -top-6
+    lg:-top-12
+    left-1/2
+    -translate-x-1/2
+    w-[90%]
+    max-w-[360px]
+    z-16
+  "
+>
         <img
           src="/image/plants/aglaonema.png"
           alt="Aglaonema Plant"
