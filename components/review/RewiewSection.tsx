@@ -25,7 +25,7 @@ const reviews = [
 
 const ReviewsSection = () => {
   return (
-    <section className="bg-[#0B1409] py-20">
+    <section className="bg-[#0B1409]">
       
         <div className="flex justify-center items-center">
      <h4

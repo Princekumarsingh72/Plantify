@@ -8,6 +8,7 @@ const HeroSection = () => {
       className="
         relative
         min-h-screen
+        my-20
         overflow-hidden
       "
     >

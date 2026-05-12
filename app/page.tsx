@@ -9,7 +9,7 @@ import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-black-500 font-sans dark:bg-black min-h-screen">
+    <div className="flex flex-col flex-1 items-center justify-center bg-[#0B1409] font-sans dark:bg-black min-h-screen">
 
       <div
         className="w-[100%] h-[2592px] bg-cover bg-center bg-no-repeat rounded-3x"

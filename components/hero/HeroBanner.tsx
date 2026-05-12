@@ -18,8 +18,8 @@ export default function HeroBanner() {
           text-xl
           sm:text-7xl
           md:text-8xl
-          lg:text-[100px]
-          font-bold
+          lg:text-[90px]
+          font-semibold
           leading-none
         "
       >
@@ -35,7 +35,7 @@ export default function HeroBanner() {
           lg:text-2xl
           text-white/80
           max-w-[600px]
-          leading-relaxed
+          
         "
       >
         "Earth Exhale" symbolizes the purity and vitality
@@ -45,7 +45,7 @@ export default function HeroBanner() {
 
       <div
         className="
-          mt-8
+          mt-5
           flex
           flex-wrap
           items-center

@@ -10,7 +10,7 @@ import Logo from "@/components/navbar/Logo";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex items-center justify-between px-8 py-4 bg-black/400 backdrop-blur-md border ">
+    <nav className="fixed w-full flex items-center justify-between px-8 py-4 bg-black/2 z-20 backdrop-blur-md border ">
       <Logo/>
       <NavLinks/>
       <NavIcons/>

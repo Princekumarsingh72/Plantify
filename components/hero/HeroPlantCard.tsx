@@ -69,9 +69,9 @@ export default function HeroPlantCard() {
            <div
         className="
           absolute
-          bottom-10
-          left-8
-          right-8
+          bottom-15
+          left-18
+          right-12
           text-white
           z-10
         "
@@ -92,13 +92,13 @@ export default function HeroPlantCard() {
             flex
             items-center
             justify-between
-            gap-4
+            gap-2
           "
         >
           <h2
             className="
               text-3xl
-              md:text-4xl
+              md:text-3xl
               font-medium
               leading-tight
             "

@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function BestO2Plants() {
   return (
-    <section className="w-full bg-[#071607] py-14 sm:py-16 overflow-hidden">
+    <section className="w-full bg-[#0B1409] py-14 sm:py-16 overflow-hidden">
 
       {/* Heading */}
       <div className="flex justify-center mb-10 px-4">

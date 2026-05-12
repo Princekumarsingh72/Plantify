@@ -32,9 +32,9 @@ const TrendyCard = ({
         lg:rounded-[60px]
 
         border
-        border-white/10
+        border-white/15
 
-        bg-[#1A2418]/70
+        bg-white/2
         backdrop-blur-md
 
         overflow-visible
@@ -49,10 +49,9 @@ const TrendyCard = ({
         lg:px-16
         lg:py-0
 
-        ${
-          reverse
-            ? "lg:flex-row-reverse"
-            : "lg:flex-row"
+        ${reverse
+          ? "lg:flex-row-reverse"
+          : "lg:flex-row"
         }
       `}
     >
@@ -75,10 +74,9 @@ const TrendyCard = ({
           mb-8
           lg:mb-0
 
-          ${
-            reverse
-              ? "lg:right-[40px]"
-              : "lg:left-[40px]"
+          ${reverse
+            ? "lg:right-[40px]"
+            : "lg:left-[40px]"
           }
         `}
       >
@@ -92,8 +90,8 @@ const TrendyCard = ({
             sm:w-[260px]
             sm:h-[260px]
 
-            lg:w-[320px]
-            lg:h-[320px]
+            lg:w-[420px]
+            lg:h-[420px]
 
             object-contain
           "
@@ -104,17 +102,15 @@ const TrendyCard = ({
       <div
         className={`
           w-full
+          p-5
           lg:w-[55%]
-
           z-10
-
           text-center
           lg:text-left
 
-          ${
-            reverse
-              ? "lg:mr-auto"
-              : "lg:ml-auto"
+          ${reverse
+            ? "lg:mr-auto"
+            : "lg:ml-auto"
           }
         `}
       >
@@ -125,10 +121,10 @@ const TrendyCard = ({
 
             text-3xl
             sm:text-4xl
-            lg:text-[38px]
+            lg:text-[30px]
 
             font-semibold
-            leading-tight
+            
           "
         >
           {title}
@@ -136,15 +132,13 @@ const TrendyCard = ({
 
         <p
           className="
-            mt-5
+            mt-3
 
             text-white/70
 
             text-base
-            sm:text-lg
+            
 
-            leading-7
-            lg:leading-8
           "
         >
           {description}
@@ -152,15 +146,15 @@ const TrendyCard = ({
 
         <p
           className="
-            mt-5
+            mt-3
 
             text-white
 
             text-3xl
             sm:text-4xl
-            lg:text-[34px]
+            lg:text-[30px]
 
-            font-medium
+            
           "
         >
           {price}
@@ -169,7 +163,7 @@ const TrendyCard = ({
         {/* Buttons */}
         <div
           className="
-            mt-8
+            mt-5
 
             flex
             items-center
