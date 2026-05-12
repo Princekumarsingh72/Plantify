@@ -27,9 +27,52 @@ const ReviewsSection = () => {
   return (
     <section className="bg-[#0B1409] py-20">
       
-      <h2 className="text-center text-white text-5xl font-semibold mb-16">
-        Customer Review
-      </h2>
+        <div className="flex justify-center items-center">
+     <h4
+  className="
+    relative
+    inline-block
+    text-white
+    text-5xl
+    font-semibold
+    px-8
+    py-3
+    mb-16
+  "
+>
+  
+  <span
+    className="
+      absolute
+      left-0
+      bottom-0
+      w-10
+      h-10
+      border-l-[4px]
+      border-b-[4px]
+      border-[#B6A400]
+      rounded-bl-2xl
+    "
+  ></span>
+
+
+  <span
+    className="
+      absolute
+      right-0
+      top-0
+      w-10
+      h-10
+      border-r-[4px]
+      border-t-[4px]
+      border-[#B6A400]
+      rounded-tr-2xl
+    "
+  ></span>
+
+  Customer Review
+</h4>
+</div>
 
       <div className="flex justify-center gap-8 flex-wrap">
         

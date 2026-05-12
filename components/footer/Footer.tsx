@@ -19,7 +19,7 @@ export default function Footer() {
                <div className="space-y-6">
       
           <div className="flex items-center gap-3">
-            <div
+            {/* <div
               className="
                 w-10
                 h-10
@@ -31,8 +31,8 @@ export default function Footer() {
               "
             >
               <Sprout className="text-lime-400 w-6 h-6" />
-            </div>
-
+            </div> */}
+<div><img src={"/image/logo.png"} width={50}/></div>
             <h2 className="text-3xl font-semibold">
               FloraVision.
             </h2>

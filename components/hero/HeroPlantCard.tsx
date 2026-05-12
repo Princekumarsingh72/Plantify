@@ -56,7 +56,7 @@ export default function HeroPlantCard() {
         "
       >
         <img
-          src="/image/plants/plantain.png"
+          src="/image/plants/aglaonema.png"
           alt="Aglaonema Plant"
           className="
             w-full
